@@ -1,19 +1,19 @@
 # Neo4j Employees API
 
-The following is a simple api implementation is Python using Flask and the Neo4j bolt Python driver to provide a means to write an employee name and ID via a Restful API to be persisted in a Neo4j database instance and all employees returned.
+The following is a simple api implementation in Python using Flask and the Neo4j bolt Python driver to provide a means to write an employee name and ID via a Restful API to a Neo4j database instance and all employees returned.
 
-Assumptions are that the default Neo4j database is installed locally with the out-of-the-box neo4j user and password, as well as Python3 installed with pip. 
+Assumptions are that the default Neo4j database is installed locally with the out-of-the-box neo4j user and password, as well as Python 3.8 installed with pip. 
 
 ## Setup
 
-After pulling the code project down to the local environment, startup a Python virtualenv to run the api:
+After pulling the code project down to the local environment, navigate to the directory with the api.py and startup a Python virtualenv to run the api:
 
 ```
 python3 -m venv env
 source env/bin/activate
 ```
 
-Next, install the necessary dependencies:
+Next, install the necessary Python dependencies:
 
 ```
 python3 -m pip install flask
